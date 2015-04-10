@@ -46,6 +46,7 @@
 	//     length: how big it is in bytes (NSNumber)
 	//     type: what its type is, a standard MIME type  (NSString)
 	NSArray *enclosures;
+	NSDictionary *customProperties
 
 }
 
