@@ -586,7 +586,7 @@
 			void (^fillCustomKeysWithBasePath)(NSString *) = ^ (NSString *path){
 				[self.customKeys enumerateObjectsUsingBlock:^(id key, NSUInteger idx, BOOL *stop) {
 					NSString *fullPath = [NSString stringWithFormat:path, key];
-                    NSLog(@"Current Path: %@",currentPath);
+                    //NSLog(@"Current Path: %@",currentPath);
 					if ([currentPath isEqualToString:fullPath]) {
                         NSString *newKey = key;
                         if (self.currentCustomProperties[key]) {
